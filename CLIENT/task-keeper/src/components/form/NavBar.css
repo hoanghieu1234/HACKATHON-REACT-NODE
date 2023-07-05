@@ -1,0 +1,21 @@
+#form-user {
+  display: flex;
+  gap: 20px;
+}
+
+#input {
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+}
+.btn {
+  padding: 0 25px;
+  outline: none;
+  background-color: blue;
+  border:none;
+  color:#fff;
+}
+
+.nav {
+  margin-bottom: 10px;
+}

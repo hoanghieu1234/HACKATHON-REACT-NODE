@@ -1,0 +1,33 @@
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+.btn-1 {
+  background-color: blue;
+  padding: 7px;
+  color: #fff;
+  margin-right: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn-2 {
+  border-radius: 3px;
+  background-color: green;
+  padding: 7px;
+  color: #fff;
+  outline: none;
+  border: none;
+}
