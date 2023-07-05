@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+body {
+  background-color: rgb(224, 220, 220);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-body {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+.btn-primary {
+  position: absolute;
+  right: 40px;
+  top: 140px;
+  border-radius: 50%;
+}
+
+.form-control {
+  border: none;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.form-group {
+  box-shadow: 1px 1px 5px grey;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+#notes {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding:10px 20px;
+}
+
+.nameProduct {
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  margin-top:20px;
+  padding:10px 15px;
+  background-color: #fff;
+  box-shadow: rgb(0, 0, 0,0.3);
+}
